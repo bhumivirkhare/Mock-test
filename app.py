@@ -4,6 +4,11 @@ import os
 import docx
 import PyPDF2
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 
 # --- CONFIG ---
 UPLOAD_FOLDER = "uploads"
