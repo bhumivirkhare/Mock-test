@@ -60,7 +60,8 @@ You are an insurance advisor AI. Based on the user's request, match the most rel
 }}
 """
 
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel("chat-bison")
+
     response = model.generate_content(prompt)
     return response.text.strip()
 
